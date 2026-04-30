@@ -1264,8 +1264,15 @@ img {
 }
 
 .btn-day.active {
-  background-color: var(--color-cyan);
   color: var(--color-white);
+}
+
+.btn-day.active[data-day="04/07"] {
+  background-color: #E03883;
+}
+
+.btn-day.active[data-day="05/07"] {
+  background-color: #68B0BC;
 }
 
 .filters-container {
