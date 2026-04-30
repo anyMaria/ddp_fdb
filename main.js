@@ -7,7 +7,7 @@ const programmationData = [
     lieu: "Embarcadère des Isles",
     description: "Embarquez pour une balade inoubliable au fil de l'eau à bord d'un fûtreau ! Laissez les Mariniers du Jean Bricau vous guider le temps d'une promenade apaisante, idéale pour vous détendre en famille ou entre amis et admirer la beauté de la nature des berges de Cher.",
     categorie: "Activités Nautiques & Nature",
-    image: "./assets/photos/futreau.jpg"
+    image: "./public/photos/futreau.jpg"
   },
   {
     nom: "Restauration - buvette",
@@ -16,7 +16,7 @@ const programmationData = [
     lieu: "Jardin des Isles",
     description: "Que vous ayez un petit creux ou une grande soif, c'est le lieu idéal pour vous régaler et partager un moment convivial en famille ou entre amis entre deux animations.",
     categorie: "Animations & Vie Locale",
-    image: "./assets/photos/farniente.jpg"
+    image: "./public/photos/farniente.jpg"
   },
   {
     nom: "Ener'Véretz",
@@ -25,7 +25,7 @@ const programmationData = [
     lieu: "Jardin des Isles",
     description: "Préparez-vous à rire et à être surpris par les Ener'Véretz, une troupe d'improvisation théâtrale débordante d'énergie et d'imagination !",
     categorie: "Spectacles & Théâtre",
-    image: "./assets/photos/ener-veretz.jpg"
+    image: "./public/photos/ener-veretz.jpg"
   },
   {
     nom: "Station Kaameleon",
@@ -34,7 +34,7 @@ const programmationData = [
     lieu: "Jardin des Isles",
     description: "L’énergie au service de la voix ! Venez faire la fête avec Station Kaameleon, un groupe plein d'énergie qui vous fera bouger sur tous les rythmes, de la pop douce à un rock puissant.",
     categorie: "Musique & Concerts",
-    image: "./assets/photos/station-kaameleon.jpg"
+    image: "./public/photos/station-kaameleon.jpg"
   },
   {
     nom: "DJ Axel",
@@ -43,7 +43,7 @@ const programmationData = [
     lieu: "Jardin des Isles",
     description: "Des sons pour faire allumer et danser le public !",
     categorie: "Musique & Concerts",
-    image: "./assets/photos/dj-axel.jpg"
+    image: "./public/photos/dj-axel.jpg"
   },
   {
     nom: "Feux d'artifice musical",
@@ -52,7 +52,7 @@ const programmationData = [
     lieu: "Jardin des Isles",
     description: "Finissez la journée en beauté avec un magnifique feu d'artifice musical qui illuminera le ciel de mille couleurs ! Laissez-vous porter par la musique et la magie de ce grand spectacle lumineux, un moment inoubliable qui fera briller les yeux de toute la famille.",
     categorie: "Spectacles & Théâtre",
-    image: "./assets/photos/feuartifice.JPG"
+    image: "./public/photos/feuartifice.JPG"
   },
   {
     nom: "Randonnée pédestre - Trotteur",
@@ -61,7 +61,7 @@ const programmationData = [
     lieu: "Départ place du Girouet",
     description: "Randonnée pédestre \"Entre les deux ponts\" de 8 km. Avec l’ASV Les Trotteurs. Inscriptions sur place à partir de 9h45.",
     categorie: "Activités Nautiques & Nature",
-    image: "./assets/photos/rando.jpg"
+    image: "./public/photos/rando.jpg"
   },
   {
     nom: "Course canoës",
@@ -70,7 +70,7 @@ const programmationData = [
     lieu: "Embarcadère des Isles",
     description: "Le Cher verra s'affronter les meilleurs rameurs lors d'une course de canoës ! Notre animateur déjanté fera de ce rendez-vous un moment de convivialité et d'euphorie. Et qui sait, peut-être apercevrez-vous le fameux Cher-Ness au détour d'un méandre… Enfilez votre plus beau déguisement sur le thème \"Préhistoire\" pour tenter de remporter le prix du meilleur costume !",
     categorie: "Activités Nautiques & Nature",
-    image: "./assets/photos/course-canoes.JPG"
+    image: "./public/photos/course-canoes.JPG"
   },
   {
     nom: "Initiation à la photo",
@@ -79,7 +79,7 @@ const programmationData = [
     lieu: "Jardin des Isles",
     description: "Le photo club Sels et Pixels propose une initiation prise de vue à l’occasion de la Fête des Berges. 10h30-11h30, 14h30-15h30 & 16h30-17h30 Jardins des Isles Rdv devant \"J’aime Le Cher\" Inscription au préalable sur : www.sels-pixels.fr Gratuit - Toute sorte d’appareil photos",
     categorie: "Animations & Vie Locale",
-    image: "./assets/photos/initiation-photo.jpg"
+    image: "./public/photos/initiation-photo.jpg"
   },
   {
     nom: "Marché des Berges",
@@ -88,7 +88,7 @@ const programmationData = [
     lieu: "Quai Henri IV",
     description: "Le Marché des Berges accueille plus de 60 exposants, tous uniques de leur propre manière. Parmi eux on trouve des producteurs locaux, artisanat d'art, bijoux, créations textiles, plantes & fleurs, artistes plasticiens, décos et massages.",
     categorie: "Animations & Vie Locale",
-    image: "./assets/photos/marche.jpg"
+    image: "./public/photos/marche.jpg"
   },
   {
     nom: "Canoës",
@@ -97,7 +97,7 @@ const programmationData = [
     lieu: "Embarcadère des Isles",
     description: "Profitez d'une balade libre en canoë sur le Cher pour découvrir la faune et la flore locales à votre rythme.",
     categorie: "Activités Nautiques & Nature",
-    image: "./assets/photos/course-canoes.JPG"
+    image: "./public/photos/course-canoes.JPG"
   },
   {
     nom: "Balades en fûtreaux et canoës",
@@ -106,7 +106,7 @@ const programmationData = [
     lieu: "Embarcadère des Isles",
     description: "Envie de prendre le large sur les eaux du Cher ? Embarquez à bord de nos fûtreaux ou glissez en canoë au fil de l'eau, à la découverte des paysages bucoliques qui bordent nos rives. Ouvrez l'œil : le Cher-Ness rôde peut-être dans les parages ! Avec la participation des Mariniers du Jean Bricau et de Tours & Canoë.",
     categorie: "Activités Nautiques & Nature",
-    image: "./assets/photos/Mariniers.jpg"
+    image: "./public/photos/Mariniers.jpg"
   },
   {
     nom: "Maquillage enfants",
@@ -115,7 +115,7 @@ const programmationData = [
     lieu: "Jardin des Isles",
     description: "Faites briller les yeux de vos enfants en les emmenant au stand de maquillage pour une transformation magique et colorée !",
     categorie: "Animations & Vie Locale",
-    image: "./assets/photos/maquillage.jpg"
+    image: "./public/photos/maquillage.jpg"
   },
   {
     nom: "Démonstration Toutous d'eau",
@@ -124,7 +124,7 @@ const programmationData = [
     lieu: "Embarcadère des Isles",
     description: "Ne manquez pas les impressionnantes démonstrations des adorables et courageux chiens sauveteurs de sauvetage aquatique, un spectacle fascinant et plein de tendresse qui émerveillera les petits comme les grands.",
     categorie: "Spectacles & Théâtre",
-    image: "./assets/photos/toutous.jpg"
+    image: "./public/photos/toutous.jpg"
   },
   {
     nom: "Spectacle de La Salt’s Academy",
@@ -133,7 +133,7 @@ const programmationData = [
     lieu: "Jardin des Isles",
     description: "De pur bonheur, de rythmes endiablés et de chorégraphies qui claquent !",
     categorie: "Spectacles & Théâtre",
-    image: "./assets/photos/salts-academy.jpg"
+    image: "./public/photos/salts-academy.jpg"
   },
   {
     nom: "Spectacle \"L’Imperial Transkaïros\"",
@@ -142,7 +142,7 @@ const programmationData = [
     lieu: "Jardin des Isles",
     description: "Spectacle de rue en mouvement dans et autour d’un petit train routier. 12 passagers vont avoir la chance de monter à bord pour Chatanooga, le pays du bonheur éternel. Tandis qu’à l’intérieur les voyageurs vivent un safari sonore, à l’extérieur sont racontées aux spectateurs piétons des anecdotes sur les miracles accomplis lors de précédents voyages.",
     categorie: "Spectacles & Théâtre",
-    image: "./assets/photos/Trankairos.jpg"
+    image: "./public/photos/Trankairos.jpg"
   },
   {
     nom: "Ateliers natures",
@@ -151,7 +151,7 @@ const programmationData = [
     lieu: "Jardin des Isles",
     description: "Partez à la découverte de la faune et de la flore locales au fil d'ateliers pédagogiques et d'expositions consacrées à la richesse de nos écosystèmes. Avec la participation de Couleurs Sauvages et L'Arbre Voyageur.",
     categorie: "Activités Nautiques & Nature",
-    image: "./assets/photos/ateliers-nature.jpg"
+    image: "./public/photos/ateliers-nature.jpg"
   },
   {
     nom: "Jeux géants, dessin, maquillage",
@@ -160,7 +160,7 @@ const programmationData = [
     lieu: "Jardin des Isles",
     description: "En famille, entre amis, profitez des animations : jeux géants en bois, dessin à la craie, maquillage pour enfant… Avec la participation des Bricau Joueurs, de l’Association des assistantes maternelles de Véretz (ADAM), de Sandrine Le Moënner (maquillage)…",
     categorie: "Animations & Vie Locale",
-    image: "./assets/photos/brico-joueurs.jpg"
+    image: "./public/photos/brico-joueurs.jpg"
   },
   {
     nom: "Charcuterie musicale",
@@ -169,7 +169,7 @@ const programmationData = [
     lieu: "Place Paul Louis Courier",
     description: "Quizz musical interactif déjanté à consommer sans modération !",
     categorie: "Musique & Concerts",
-    image: "./assets/photos/charcuterie-musicale.png"
+    image: "./public/photos/charcuterie-musicale.png"
   },
   {
     nom: "Déambulation Samba Alegria",
@@ -178,7 +178,7 @@ const programmationData = [
     lieu: "Quai Henri IV",
     description: "La batucada Alegria, avec ses chapeaux rouges à plume blanche, enflamme le pavé à chaque passage au rythme vibrant des percussions brésiliennes et des danseuses.",
     categorie: "Musique & Concerts",
-    image: "./assets/photos/samba-alegria.jpg"
+    image: "./public/photos/samba-alegria.jpg"
   },
   {
     nom: "Diego & Joanes",
@@ -187,7 +187,7 @@ const programmationData = [
     lieu: "Jardin des Isles",
     description: "Laissez-vous surprendre par Diego & Joanes, un duo d'artistes multi-talents qui va enflammer le festival avec son humour ravageur ! Préparez-vous pour un spectacle de rue hilarant et plein de surprises, où la comédie et la bonne humeur séduiront les petits comme les grands.",
     categorie: "Spectacles & Théâtre",
-    image: "./assets/photos/diego-joanes.jpg",
+    image: "./public/photos/diego-joanes.jpg",
     position: "center top"
   }
 ];
