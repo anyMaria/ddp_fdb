@@ -64,6 +64,15 @@ const programmationData = [
     image: "/photos/rando.jpg"
   },
   {
+    nom: "Restauration - buvette",
+    jour: "05/07",
+    heure: "17h - 23h45",
+    lieu: "Jardins des Isles",
+    description: "Que vous ayez un petit creux ou une grande soif, c'est le lieu idéal pour vous régaler et partager un moment convivial en famille ou entre amis entre deux animations.",
+    categorie: "Animations & Vie Locale",
+    image: "/photos/restauration1.jpg"
+  },
+  {
     nom: "Course canoës",
     jour: "05/07",
     heure: "10h - 12h30",
@@ -91,7 +100,7 @@ const programmationData = [
     image: "./photos/marche.jpg"
   },
   {
-    nom: "Baldaes en canoës et kayaks",
+    nom: "Balades en canoës et kayaks",
     jour: "05/07",
     heure: "12H30 - 18H",
     lieu: "Embarcadère des Isles",
@@ -102,7 +111,7 @@ const programmationData = [
   {
     nom: "Balades en fûtreaux",
     jour: "05/07",
-    heure: "12h30",
+    heure: "À partir de 12h30",
     lieu: "Embarcadère des Isles",
     description: "Envie de prendre le large sur les eaux du Cher ? Embarquez à bord de nos fûtreaux, à la découverte des paysages bucoliques qui bordent nos rives. Ouvrez l'œil : le Cher-Ness rôde peut-être dans les parages ! Avec la participation des Mariniers du Jean Bricau.",
     categorie: "Activités Nautiques & Nature",
@@ -122,7 +131,7 @@ const programmationData = [
     jour: "05/07",
     heure: "14h30 - 15h // 16h - 16h30 // 17h30 - 18h30",
     lieu: "Embarcadère des Isles",
-    description: "Ne manquez pas les impressionnantes démonstrations des adorables et courageux chiens sauveteurs de sauvetage aquatique, un spectacle fascinant et plein de tendresse qui émerveillera les petits comme les grands.",
+    description: "Ne manquez pas les impressionnantes démonstrations des adorables et courageux chiens de sauvetage aquatique, un spectacle fascinant et plein de tendresse qui émerveillera les petits comme les grands.",
     categorie: "Activités Nautiques & Nature",
     image: "/photos/toutous.jpg"
   },
