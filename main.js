@@ -197,7 +197,7 @@ const programmationData = [
     description: "Laissez-vous surprendre par Diego & Joanes, un duo d'artistes multi-talents qui va enflammer le festival avec son humour ravageur ! Préparez-vous pour un spectacle de rue hilarant et plein de surprises, où la comédie et la bonne humeur séduiront les petits comme les grands.",
     categorie: "Spectacles & Théâtre",
     image: "/photos/diego-joanes.jpg",
-    position: "center top"
+    position: "center 35%"
   },
   {
     nom: "Cumbia Boom Box",
@@ -207,7 +207,7 @@ const programmationData = [
     description: "Cinq musiciennes, une sororité assumée et une énergie contagieuse. Entre rythmes acoustiques, voix enflammées et des beats électro, le groupe livre un live ultra-festif et taillé pour la danse. Rejoignez-nous pour clôturer la Fête des Berges avec une véritable explosion de bonne humeur et de puissance scénique.",
     categorie: "Musique & Concerts",
     image: "/photos/CUMBIA BOOM BOX PORTRAIT v2 nologo.jpg",
-    position: "center 40%"
+    position: "center 30%"
   }
 ];
 
