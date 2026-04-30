@@ -228,16 +228,16 @@ function renderCards() {
     card.className = 'prog-card';
     
     // Use item.image if available, otherwise use default placeholder
-    let eventImg = item.image ? item.image : './assets/prog-card-default.png';
+    let eventImg = item.image ? item.image : '/assets/prog-card-default.png';
     // Use item.position if available, otherwise default to center
     let bgPos = item.position ? item.position : 'center';
     
     // Mapping icons for categories
     let iconSrc = '';
-    if(item.categorie === 'Activités Nautiques & Nature') iconSrc = './assets/filters/activites-nautiques-nature.png';
-    else if(item.categorie === 'Spectacles & Théâtre') iconSrc = './assets/filters/spectacles-theatre.png';
-    else if(item.categorie === 'Musique & Concerts') iconSrc = './assets/filters/musique-concerts.png';
-    else if(item.categorie === 'Animations & Vie Locale') iconSrc = './assets/filters/animation-vie-locale.png';
+    if(item.categorie === 'Activités Nautiques & Nature') iconSrc = '/filters/activites-nautiques-nature.png';
+    else if(item.categorie === 'Spectacles & Théâtre') iconSrc = '/filters/spectacles-theatre.png';
+    else if(item.categorie === 'Musique & Concerts') iconSrc = '/filters/musique-concerts.png';
+    else if(item.categorie === 'Animations & Vie Locale') iconSrc = '/filters/animation-vie-locale.png';
     
     // Formatting hours: replace // with line break
     const formattedHeure = item.heure.replace(/\s?\/\/\s?/g, '<br/>');
