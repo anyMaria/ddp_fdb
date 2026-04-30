@@ -918,17 +918,18 @@ img {
 
 .flip-card-front h3 {
   position: relative;
-  z-index: 1;
   font-size: 24px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   margin-top: auto;
   line-height: 25px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .flip-card-back {
   background-color: var(--color-dark-purple);
   color: white;
-  transform: rotateY(180deg);
+  transform: rotateY(180deg) translateZ(1px); 
   font-size: 18px;
 }
 
@@ -1104,8 +1105,8 @@ img {
 .marquee {
   display: flex;
   width: max-content;
-  animation: scroll 20s linear infinite;
-  transition: var(--transition-smooth);
+  animation: scroll 25s linear infinite;
+  will-change: transform;
 }
 
 .marquee-wrapper:hover .marquee {
@@ -1128,7 +1129,7 @@ img {
   display: flex;
   align-items: center;
   gap: 50px;
-  padding: 0 25px;
+  padding: 0;
 }
 
 .partner-logo {
