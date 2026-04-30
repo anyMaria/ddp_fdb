@@ -13,16 +13,16 @@ const programmationData = [
     nom: "Restauration - buvette",
     jour: "04/07",
     heure: "17h - 23h45",
-    lieu: "Jardin des Isles",
+    lieu: "Jardins des Isles",
     description: "Que vous ayez un petit creux ou une grande soif, c'est le lieu idéal pour vous régaler et partager un moment convivial en famille ou entre amis entre deux animations.",
     categorie: "Animations & Vie Locale",
-    image: "/photos/farniente.jpg"
+    image: "/photos/restauration.jpg"
   },
   {
     nom: "Ener'Véretz",
     jour: "04/07",
     heure: "18h - 19h15",
-    lieu: "Jardin des Isles",
+    lieu: "Jardins des Isles",
     description: "Préparez-vous à rire et à être surpris par les Ener'Véretz, une troupe d'improvisation théâtrale débordante d'énergie et d'imagination !",
     categorie: "Spectacles & Théâtre",
     image: "/photos/ener-veretz.jpg"
@@ -31,7 +31,7 @@ const programmationData = [
     nom: "Station Kaameleon",
     jour: "04/07",
     heure: "19h30 - 21h",
-    lieu: "Jardin des Isles",
+    lieu: "Jardins des Isles",
     description: "L’énergie au service de la voix ! Venez faire la fête avec Station Kaameleon, un groupe plein d'énergie qui vous fera bouger sur tous les rythmes, de la pop douce à un rock puissant.",
     categorie: "Musique & Concerts",
     image: "/photos/station-kaameleon.jpg"
@@ -40,7 +40,7 @@ const programmationData = [
     nom: "DJ Axel",
     jour: "04/07",
     heure: "21h15 - 00h",
-    lieu: "Jardin des Isles",
+    lieu: "Jardins des Isles",
     description: "Des sons pour faire allumer et danser le public !",
     categorie: "Musique & Concerts",
     image: "/photos/dj-axel.jpg"
@@ -49,7 +49,7 @@ const programmationData = [
     nom: "Feux d'artifice musical",
     jour: "04/07",
     heure: "23h",
-    lieu: "Jardin des Isles",
+    lieu: "Jardins des Isles",
     description: "Finissez la journée en beauté avec un magnifique feu d'artifice musical qui illuminera le ciel de mille couleurs ! Laissez-vous porter par la musique et la magie de ce grand spectacle lumineux, un moment inoubliable qui fera briller les yeux de toute la famille.",
     categorie: "Spectacles & Théâtre",
     image: "/photos/feuartifice.JPG"
@@ -75,9 +75,9 @@ const programmationData = [
   {
     nom: "Initiation à la photo",
     jour: "05/07",
-    heure: "10h - 19h",
-    lieu: "Jardin des Isles",
-    description: "Le photo club Sels et Pixels propose une initiation prise de vue à l’occasion de la Fête des Berges. 10h30-11h30, 14h30-15h30 & 16h30-17h30 Jardins des Isles Rdv devant \"J’aime Le Cher\" Inscription au préalable sur : www.sels-pixels.fr Gratuit - Toute sorte d’appareil photos",
+    heure: "10h30 - 11h30 // 14h30 - 15h30 // 16h30-17h30",
+    lieu: "Jardins des Isles",
+    description: "Le photo club Sels et Pixels propose une initiation prise de vue à l’occasion de la Fête des Berges. Jardins des Isles Rdv devant \"J’aime Le Cher\"<br> Inscription au préalable sur : <br> <a href=\"www.sels-pixels.fr\">www.sels-pixels.fr</a> <br> Gratuit - Toute sorte d’appareil photos",
     categorie: "Animations & Vie Locale",
     image: "/photos/initiation-photo.jpg"
   },
@@ -91,20 +91,20 @@ const programmationData = [
     image: "./photos/marche.jpg"
   },
   {
-    nom: "Canoës",
+    nom: "Baldaes en canoës et kayaks",
     jour: "05/07",
     heure: "12H30 - 18H",
     lieu: "Embarcadère des Isles",
-    description: "Profitez d'une balade libre en canoë sur le Cher pour découvrir la faune et la flore locales à votre rythme.",
+    description: "Profitez d'une balade libre en canoë sur le Cher pour découvrir la faune et la flore locales à votre rythme. Avec la participation de Tours & Canoë.",
     categorie: "Activités Nautiques & Nature",
     image: "/photos/course-canoes.JPG"
   },
   {
-    nom: "Balades en fûtreaux et canoës",
+    nom: "Balades en fûtreaux",
     jour: "05/07",
     heure: "12h30",
     lieu: "Embarcadère des Isles",
-    description: "Envie de prendre le large sur les eaux du Cher ? Embarquez à bord de nos fûtreaux ou glissez en canoë au fil de l'eau, à la découverte des paysages bucoliques qui bordent nos rives. Ouvrez l'œil : le Cher-Ness rôde peut-être dans les parages ! Avec la participation des Mariniers du Jean Bricau et de Tours & Canoë.",
+    description: "Envie de prendre le large sur les eaux du Cher ? Embarquez à bord de nos fûtreaux, à la découverte des paysages bucoliques qui bordent nos rives. Ouvrez l'œil : le Cher-Ness rôde peut-être dans les parages ! Avec la participation des Mariniers du Jean Bricau.",
     categorie: "Activités Nautiques & Nature",
     image: "/photos/Mariniers.jpg"
   },
@@ -112,7 +112,7 @@ const programmationData = [
     nom: "Maquillage enfants",
     jour: "05/07",
     heure: "14h - 19h",
-    lieu: "Jardin des Isles",
+    lieu: "Jardins des Isles",
     description: "Faites briller les yeux de vos enfants en les emmenant au stand de maquillage pour une transformation magique et colorée !",
     categorie: "Animations & Vie Locale",
     image: "/photos/maquillage.jpg"
@@ -123,14 +123,14 @@ const programmationData = [
     heure: "14h30 - 15h // 16h - 16h30 // 17h30 - 18h30",
     lieu: "Embarcadère des Isles",
     description: "Ne manquez pas les impressionnantes démonstrations des adorables et courageux chiens sauveteurs de sauvetage aquatique, un spectacle fascinant et plein de tendresse qui émerveillera les petits comme les grands.",
-    categorie: "Spectacles & Théâtre",
+    categorie: "Activités Nautiques & Nature",
     image: "/photos/toutous.jpg"
   },
   {
     nom: "Spectacle de La Salt’s Academy",
     jour: "05/07",
     heure: "15h - 15h45 // 18h - 18h45",
-    lieu: "Jardin des Isles",
+    lieu: "Jardins des Isles",
     description: "De pur bonheur, de rythmes endiablés et de chorégraphies qui claquent !",
     categorie: "Spectacles & Théâtre",
     image: "/photos/salts-academy.jpg"
@@ -139,7 +139,7 @@ const programmationData = [
     nom: "Spectacle \"L’Imperial Transkaïros\"",
     jour: "05/07",
     heure: "15h - 15h45 // 17h - 17h45",
-    lieu: "Jardin des Isles",
+    lieu: "Jardins des Isles",
     description: "Spectacle de rue en mouvement dans et autour d’un petit train routier. 12 passagers vont avoir la chance de monter à bord pour Chatanooga, le pays du bonheur éternel. Tandis qu’à l’intérieur les voyageurs vivent un safari sonore, à l’extérieur sont racontées aux spectateurs piétons des anecdotes sur les miracles accomplis lors de précédents voyages.",
     categorie: "Spectacles & Théâtre",
     image: "/photos/Trankairos.jpg"
@@ -148,24 +148,24 @@ const programmationData = [
     nom: "Ateliers natures",
     jour: "05/07",
     heure: "15h - 19h",
-    lieu: "Jardin des Isles",
+    lieu: "Jardins des Isles",
     description: "Partez à la découverte de la faune et de la flore locales au fil d'ateliers pédagogiques et d'expositions consacrées à la richesse de nos écosystèmes. Avec la participation de Couleurs Sauvages et L'Arbre Voyageur.",
     categorie: "Activités Nautiques & Nature",
-    image: "/photos/ateliers-nature.jpg"
+    image: "/photos/brico-joueurs.jpg"
   },
   {
     nom: "Jeux géants, dessin, maquillage",
     jour: "05/07",
-    heure: "19h - 22h",
-    lieu: "Jardin des Isles",
+    heure: "14h - 19h",
+    lieu: "Jardins des Isles",
     description: "En famille, entre amis, profitez des animations : jeux géants en bois, dessin à la craie, maquillage pour enfant… Avec la participation des Bricau Joueurs, de l’Association des assistantes maternelles de Véretz (ADAM), de Sandrine Le Moënner (maquillage)…",
     categorie: "Animations & Vie Locale",
-    image: "/photos/brico-joueurs.jpg"
+    image: "/photos/ateliers-nature.jpg"
   },
   {
     nom: "Charcuterie musicale",
     jour: "05/07",
-    heure: "18h - 18h45 // 19h - 22h",
+    heure: "16h - 18h // 19h - 22h",
     lieu: "Place Paul Louis Courier",
     description: "Quizz musical interactif déjanté à consommer sans modération !",
     categorie: "Musique & Concerts",
@@ -184,7 +184,7 @@ const programmationData = [
     nom: "Diego & Joanes",
     jour: "05/07",
     heure: "19h - 20h",
-    lieu: "Jardin des Isles",
+    lieu: "Jardins des Isles",
     description: "Laissez-vous surprendre par Diego & Joanes, un duo d'artistes multi-talents qui va enflammer le festival avec son humour ravageur ! Préparez-vous pour un spectacle de rue hilarant et plein de surprises, où la comédie et la bonne humeur séduiront les petits comme les grands.",
     categorie: "Spectacles & Théâtre",
     image: "/photos/diego-joanes.jpg",
