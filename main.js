@@ -165,7 +165,7 @@ const programmationData = [
   {
     nom: "Jeux géants, dessin, maquillage",
     jour: "05/07",
-    heure: "14h - 19h",
+    heure: "15h - 19h",
     lieu: "Jardins des Isles",
     description: "En famille, entre amis, profitez des animations : jeux géants en bois, dessin à la craie, maquillage pour enfant… Avec la participation des Bricau Joueurs, de l’Association des assistantes maternelles de Véretz (ADAM), de Sandrine Le Moënner (maquillage)…",
     categorie: "Animations & Vie Locale",
